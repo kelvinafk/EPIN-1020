@@ -4,7 +4,6 @@ function clear_form(form){
     form.height.value = "";
     form.bmi.value = "";
     form.comment.value = "";
-
 }
 
 function check_form(form) {
@@ -23,13 +22,11 @@ function check_form(form) {
                 return false;
        }
        return true;
-
 }
 
 function compute_form(form) {
 
        if (check_form(form)) {
-
          var weight = Number(document.getElementById("weight").value);
          var height = Number(document.getElementById("height").value);
          var bmi = weight / Math.pow(height,2)* 10000;
