@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html style="background-color: #4984C2;">
+<head>
+<title>BMI Calculator</title>
+<link rel="stylesheet" type="text/css" href="bmi_style.css">
+</head>
+
+<body>
+<h1>BMI Calculator</h1>
+<p>Your Body Mass Index (BMI) is a good indicator whether you are being healthy in terms of your body weight. Let's find out your BMI here!</p>
+<hr>
+
+<form>
+<table border=1 align=center>
+
+<tr>
+<td align=center>Your Weight (kg)</td>
+<td align=center>Your Height (cm)</td>
+<td align=center>Your BMI</td>
+<td align=center>My comment</td>
+</tr>
+
+<tr>
+<td><input type=text name="weight"  size=20 align=center></td>
+<td><input type=text name="height"  size=20 align=center></td>
+<td><input type=text name="bmi"     size=15 align=center></td>
+<td><input type=text name="comment" size=50 align=center></td>
+</table>
+
+<p></p>
+<button onclick="compute_form(this.form)" type="button" class="button">Find my BMI now!</button>
+<br>
+<button onclick="clear_form(this.form)" type="button" class="button">Reset</button>
+
+</form>
+<p>Do you know more about your health condition now?</p>
+
+<hr>
+<address style="
+color:cyan;
+text-align: right;"
+>Note: This calculator can only provide a rough idea on your weight status and should not be used as a diagnostic tool in any circumstances.</address>
+
+
+<script src="bmi_script.js"></script>
+
+</body>
+
+</html>

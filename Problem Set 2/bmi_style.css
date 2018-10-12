@@ -1,0 +1,23 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: -webkit-xxx-large;
+  }
+
+p {
+  color: white;
+      font-family: cursive;
+      text-align: center;
+}
+
+table {
+  background: aliceblue;
+  font-family:sans-serif;
+}
+
+
+.button {
+  display:block;
+  margin: 0 auto;
+}
